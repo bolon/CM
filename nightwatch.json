@@ -1,0 +1,29 @@
+{  
+  "src_folders":[  
+    "tests"
+  ],
+  "page_objects_path" : "pages",
+  "webdriver":{  
+    "start_process":true
+  },
+  "test_settings":{  
+    "default":{  
+      "launch_url":"https://www.google.com",
+      "globals":{  
+        "globalVar1":"maybeAuthKEY?IDK",
+        "globalVar2":"maybeStaticPassword?IDK"
+      },
+      "webdriver":{  
+        "server_path":"./node_modules/.bin/chromedriver",
+        "port":9515,
+        "cli_args":[  
+          "--verbose"
+        ]
+      },
+      "desiredCapabilities":{  
+        "browserName":"chrome",
+        "acceptInsecureCerts":true
+      }
+    }
+  }
+}

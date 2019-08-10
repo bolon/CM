@@ -1,0 +1,4 @@
+tests_output/
+*.log
+package-lock.json
+node_modules/
